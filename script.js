@@ -17,7 +17,7 @@ const portfolio = {
 
     linkedin: "https://www.linkedin.com/in/mark-john-lar-a6304344a/",
 
-    photo: "images/profile.jpg"
+    photo: "images/profile.png"
 },
 
     certifications: [
