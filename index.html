@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Personal portfolio of an Information Technology student, showcasing technical skills, projects, certifications, and achievements.">
+    <meta name="theme-color" content="#0b1120">
+
+    <title>Student Portfolio | IT Student</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+    <header class="header" id="header">
+<nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-bracket"></span> Portfolio
+                <span class="logo-bracket"></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link active">About</a></li>
+                <li><a href="#skills" class="nav-link active">Skills</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#leadership" class="nav-link">Leadership</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="themeToggle"
+                    aria-label="Switch color theme">
+                <i class="fas fa-sun"></i>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= 1. HERO / ABOUT ================= -->
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content reveal">
+
+                    <span class="section-tag">
+                        <i class="fas fa-code"></i> Welcome to my portfolio
+                    </span>
+
+                    <p class="hero-greeting">Hello, I'm</p>
+
+                    <h1 id="heroName">[Your Full Name]</h1>
+
+                    <h2 id="heroTitle">
+                        Information Technology Student
+                    </h2>
+
+                    <p class="hero-bio" id="heroBio">
+                        [Write a short introduction about yourself.
+                        Describe your interests, technical background,
+                        and goals as an IT student.]
+                    </p>
+
+                    <div class="hero-details">
+                        <span>
+                            <i class="fas fa-graduation-cap"></i>
+                            <span id="heroCourse">[Course / Year Level]</span>
+                        </span>
+
+                        <span>
+                            <i class="fas fa-university"></i>
+                            <span id="heroSchool">[School Name]</span>
+                        </span>
+                    </div>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Explore My Projects
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+
+                        <a href="#contact" class="btn btn-outline">
+                            Contact Me
+                        </a>
+                    </div>
+
+                    <div class="hero-socials" id="heroSocials"></div>
+
+                </div>
+
+                <div class="hero-image-wrapper reveal">
+                    <div class="hero-image-border"></div>
+
+                    <img src="images/profile.jpg"
+                         alt="Profile portrait of [Your Full Name]"
+                         class="hero-image"
+                         onerror="this.src='images/profile-placeholder.jpg'">
+
+                    <div class="floating-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <div>
+                            <strong>IT Student</strong>
+                            <span>Learning and Building</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 2. CERTIFICATIONS ================= -->
+        <section class="section section-alt" id="certifications">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Professional Development</span>
+                    <h2>Updated Certifications</h2>
+                    <p>Certifications and credentials earned through professional learning platforms and organizations.</p>
+                </div>
+
+                <div class="card-grid" id="certificationGrid"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 3. COURSE COMPLETIONS ================= -->
+        <section class="section" id="courses">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Continuous Learning</span>
+                    <h2>Course Completions</h2>
+                    <p>Technical courses and online learning programs I have successfully completed.</p>
+                </div>
+
+                <div class="filter-container reveal" id="courseFilters">
+                    <button class="filter-btn active" data-filter="All">All</button>
+                </div>
+
+                <div class="card-grid" id="courseGrid"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 4. IOT PROJECTS ================= -->
+        <section class="section section-alt" id="iot">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Hardware and Software Integration</span>
+                    <h2>IoT Projects</h2>
+                    <p>Internet of Things projects involving sensors, microcontrollers, automation, and connected systems.</p>
+                </div>
+
+                <div class="project-list" id="iotGrid"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 5. CAPSTONE PROJECT ================= -->
+        <section class="section" id="capstone">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Academic Research and Development</span>
+                    <h2>Capstone Project</h2>
+                    <p>A major academic project demonstrating research, system development, and technical problem-solving.</p>
+                </div>
+
+                <div id="capstoneContent"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 6. THIRD-YEAR PROJECTS ================= -->
+        <section class="section section-alt" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Academic Portfolio</span>
+                    <h2>Third-Year Course Projects</h2>
+                    <p>Selected projects developed throughout my third year of Information Technology studies.</p>
+                </div>
+
+                <div class="card-grid" id="projectGrid"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 7. OTHER ACHIEVEMENTS ================= -->
+        <section class="section" id="achievements">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Milestones and Recognition</span>
+                    <h2>Other Achievements</h2>
+                    <p>Academic recognition, workshops, seminars, trainings, and other meaningful experiences.</p>
+                </div>
+
+                <div class="timeline" id="achievementTimeline"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 8. COMPETITIONS AND AWARDS ================= -->
+        <section class="section section-alt" id="competitions">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Recognition and Excellence</span>
+                    <h2>Competitions and Awards</h2>
+                    <p>Competitions, events, and accomplishments that showcase my abilities and participation.</p>
+                </div>
+
+                <div class="card-grid" id="competitionGrid"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 9. LEADERSHIP ================= -->
+        <section class="section" id="leadership">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Leadership and Community Involvement</span>
+                    <h2>Officership and Leadership Experiences</h2>
+                    <p>Organizations, leadership positions, and responsibilities I have undertaken.</p>
+                </div>
+
+                <div class="timeline" id="leadershipTimeline"></div>
+
+            </div>
+        </section>
+
+
+        <!-- ================= 10. CONTACT ================= -->
+        <section class="section section-alt" id="contact">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2>Let's Connect</h2>
+                    <p>Feel free to reach out for academic collaborations, project opportunities, or professional connections.</p>
+                </div>
+
+                <div class="contact-wrapper reveal">
+
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+
+                        <p>
+                            I'm open to connecting with fellow students,
+                            developers, professionals, and organizations.
+                        </p>
+
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <strong>Email</strong>
+                                <a id="contactEmail" href="mailto:your.email@example.com">
+                                    your.email@example.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <strong>GitHub</strong>
+                                <a id="contactGithub" href="#" target="_blank" rel="noopener noreferrer">
+                                    GitHub Profile
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <strong>LinkedIn</strong>
+                                <a id="contactLinkedin" href="#" target="_blank" rel="noopener noreferrer">
+                                    LinkedIn Profile
+                                </a>
+                            </div>
+                        </div>
+
+                        <a href="mailto:your.email@example.com"
+                           class="btn btn-primary contact-button"
+                           id="emailButton">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Me an Email
+                        </a>
+                    </div>
+
+                    <div class="contact-decoration">
+                        <i class="fas fa-code"></i>
+                        <h3>Have a project in mind?</h3>
+                        <p>Let's create something meaningful through technology.</p>
+                        <span class="code-decoration">&lt;/&gt;</span>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <div class="container footer-content">
+
+            <a href="#home" class="logo">
+                <span class="logo-bracket">&lt;</span> Portfolio
+                <span class="logo-bracket">/&gt;</span>
+            </a>
+
+            <p>
+                Designed and developed with
+                <i class="fas fa-heart"></i>
+                using HTML, CSS, and JavaScript.
+            </p>
+
+            <p>
+                &copy; <span id="currentYear"></span>
+                <span id="footerName">[Your Name]</span>.
+                All rights reserved.
+            </p>
+
+        </div>
+    </footer>
+
+
+    <!-- ================= BACK TO TOP ================= -->
+    <button id="backToTop" class="back-to-top"
+            aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+
+    <!-- ================= IMAGE LIGHTBOX ================= -->
+    <div class="lightbox" id="lightbox"
+         role="dialog" aria-modal="true"
+         aria-label="Image viewer" aria-hidden="true">
+
+        <button class="lightbox-close" id="lightboxClose"
+                aria-label="Close image viewer">
+            <i class="fas fa-times"></i>
+        </button>
+
+        <button class="lightbox-prev" id="lightboxPrev"
+                aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <img src="" alt="" id="lightboxImage">
+
+        <button class="lightbox-next" id="lightboxNext"
+                aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+
+        <p id="lightboxCaption"></p>
+    </div>
+
+
+    <!-- Main JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
