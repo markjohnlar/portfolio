@@ -1,14 +1,3 @@
-/* =====================================================
-   STUDENT PORTFOLIO - JAVASCRIPT
-   Edit the PORTFOLIO DATA section to customize your site.
-===================================================== */
-
-
-/* =====================================================
-   PART 1: PORTFOLIO DATA
-   Replace the sample information with your own.
-===================================================== */
-
 const portfolio = {
 
     /* ---------- PERSONAL INFORMATION ---------- */
@@ -18,17 +7,17 @@ const portfolio = {
 
     title: "Aspiring IT Professional",
 
-    course: "[Your Course / Year Level]",
+    course: "Bachelor of Science in Information Technology",
 
-    school: "[Your School Name]",
+    school: "St. Dominic College of Asia",
 
     bio: "I am an aspiring IT professional from Bacoor, Cavite, Philippines, with a strong interest in programming and technology. My primary programming languages include Java, HTML, and C/C++. I consider myself adaptable, capable of critical thinking, and willing to take on different challenges while continuously developing my technical skills.",
 
-    email: "your.email@example.com",
+    email: "markjohn.lar@sdca.edu.ph",
 
-    github: "https://github.com/yourusername",
+    github: "https://github.com/markjohnlar",
 
-    linkedin: "https://www.linkedin.com/in/yourusername",
+    linkedin: "https://www.linkedin.com/in/mark-john-lar-a6304344a/",
 
     photo: "images/profile.jpg"
 },
