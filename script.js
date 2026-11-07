@@ -1,7 +1,5 @@
 const portfolio = {
 
-    /* ---------- PERSONAL INFORMATION ---------- */
-
     profile: {
     name: "Mark John N. Lar",
 
@@ -21,9 +19,6 @@ const portfolio = {
 
     photo: "images/profile.jpg"
 },
-
-
-    /* ---------- 2. CERTIFICATIONS ---------- */
 
     certifications: [
         {
