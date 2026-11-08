@@ -42,13 +42,13 @@ const portfolio = {
         {
             title: "JavaScript Essentials 1",
             provider: "Cisco Networking Academy",
-            date: "[Month Year]",
+            date: "October, 2026",
             certificate: "certificates/badge-1.jpg"
         },
         {
             title: "JavaScript Essentials 2",
             provider: "Cisco Networking Academy",
-            date: "[Month Year]",
+            date: "November, 2026",
             certificate: "certificates/badge-2.jpg"
         }
     ],
