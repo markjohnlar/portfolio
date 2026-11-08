@@ -25,14 +25,14 @@ const portfolio = {
             title: "Completion of JavaScript Essentials 1",
             organization: " Cisco Networking Academy",
             date: "October, 2026",
-            image: "certificates/certification-1.jpg",
+            image: "certificates/certificates-1.jpg",
             link: "https://www.netacad.com/certificates/?issuanceId=d4fd4038-33b5-4f99-bed6-5f17a16119f7"
         },
         {
             title: "Completion of JavaScript Essentials 2",
             organization: " Cisco Networking Academy",
             date: "November, 2026",
-            image: "certificates/certification-2.jpg",
+            image: "certificates/certificates-2.jpg",
             link: "https://www.netacad.com/certificates/?issuanceId=a048a666-e4f5-47fa-aa97-a7b0b3c220cc"
         }
     ],
@@ -43,13 +43,13 @@ const portfolio = {
             title: "JavaScript Essentials 1",
             provider: "Cisco Networking Academy",
             date: "October, 2026",
-            certificate: "certificates/badge-1.jpg"
+            certificate: "certificates/badge-1.png"
         },
         {
             title: "JavaScript Essentials 2",
             provider: "Cisco Networking Academy",
             date: "November, 2026",
-            certificate: "certificates/badge-2.jpg"
+            certificate: "certificates/badge-2.png"
         }
     ],
 
@@ -78,7 +78,7 @@ const portfolio = {
             ],
 
             role:
-                "Documentaion",
+                "Documentation",
 
             images: [
                 "images/iot-project-1.jpg",
@@ -146,7 +146,7 @@ const portfolio = {
 
         images: [
             "images/capstone-preview.png",
-            "images/iot-diagram.png",
+            "images/capstone-diagram.png",
             "images/project-screenshot.jpg"
         ],
 
@@ -157,7 +157,7 @@ const portfolio = {
             },
             {
                 title: "System Diagram",
-                url: "images/iot-diagram.png"
+                url: "images/capstone-diagram.png"
             },
             {
                 title: "Source Code Repository",
