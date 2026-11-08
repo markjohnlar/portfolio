@@ -22,89 +22,34 @@ const portfolio = {
 
     certifications: [
         {
-            title: "[Certification Title 1]",
-            organization: "[Issuing Organization / Platform]",
-            date: "[Month Year]",
+            title: "Completion of JavaScript Essentials 1",
+            organization: " Cisco Networking Academy",
+            date: "October, 2026",
             image: "certificates/certification-1.jpg",
-            link: ""
+            link: "https://www.netacad.com/certificates/?issuanceId=d4fd4038-33b5-4f99-bed6-5f17a16119f7"
         },
         {
-            title: "[Certification Title 2]",
-            organization: "[Issuing Organization / Platform]",
-            date: "[Month Year]",
+            title: "Completion of JavaScript Essentials 2",
+            organization: " Cisco Networking Academy",
+            date: "November, 2026",
             image: "certificates/certification-2.jpg",
-            link: ""
-        },
-        {
-            title: "[Certification Title 3]",
-            organization: "[Issuing Organization / Platform]",
-            date: "[Month Year]",
-            image: "certificates/certification-3.jpg",
-            link: ""
+            link: "https://www.netacad.com/certificates/?issuanceId=a048a666-e4f5-47fa-aa97-a7b0b3c220cc"
         }
     ],
 
 
-    /* ---------- 3. COURSE COMPLETIONS ---------- */
-
-    // Available providers:
-    // Cisco Networking Academy
-    // Oracle Academy
-    // AWS Academy
-    // Microsoft
-    // Coursera
-    // Google
-    // Udemy
-    // Other
-
     courses: [
         {
-            title: "[Introduction to Networks]",
+            title: "JavaScript Essentials 1",
             provider: "Cisco Networking Academy",
             date: "[Month Year]",
-            certificate: "certificates/course-cisco.jpg"
+            certificate: "certificates/badge-1.jpg"
         },
         {
-            title: "[Programming Course]",
-            provider: "Oracle Academy",
+            title: "JavaScript Essentials 2",
+            provider: "Cisco Networking Academy",
             date: "[Month Year]",
-            certificate: "certificates/course-oracle.jpg"
-        },
-        {
-            title: "[Cloud Computing Fundamentals]",
-            provider: "AWS Academy",
-            date: "[Month Year]",
-            certificate: "certificates/course-aws.jpg"
-        },
-        {
-            title: "[Microsoft Technical Course]",
-            provider: "Microsoft",
-            date: "[Month Year]",
-            certificate: "certificates/course-microsoft.jpg"
-        },
-        {
-            title: "[Professional Certificate Course]",
-            provider: "Coursera",
-            date: "[Month Year]",
-            certificate: ""
-        },
-        {
-            title: "[Google Technical Course]",
-            provider: "Google",
-            date: "[Month Year]",
-            certificate: ""
-        },
-        {
-            title: "[Web Development Course]",
-            provider: "Udemy",
-            date: "[Month Year]",
-            certificate: ""
-        },
-        {
-            title: "[Other Training or Course]",
-            provider: "Other",
-            date: "[Month Year]",
-            certificate: ""
+            certificate: "certificates/badge-2.jpg"
         }
     ],
 
@@ -113,15 +58,15 @@ const portfolio = {
 
     iotProjects: [
         {
-            title: "[IoT Project Title 1]",
+            title: "IoT-Integrated Solar-Powered Rice Grain Drying System",
 
             description:
-                "[Describe what your IoT project does and the problem it aims to solve.]",
+                "This project aims to develop a smart and energy-efficient rice grain drying system using IoT technology. It monitors temperature, humidity, moisture, and weight in real time while automatically controlling airflow for consistent drying. The system also allows remote monitoring and control through a mobile application for convenience. Overall, it reduces drying time, labor, and post-harvest losses while improving grain quality and promoting sustainable agriculture.",
 
             objectives: [
-                "[First project objective]",
-                "[Second project objective]",
-                "[Third project objective]"
+                "Develop Real-Time Drying Monitorin g",
+                "Integrate AI algorithm for Drying Optimization",
+                "Implement an Android application for Control and Monitoring"
             ],
 
             technologies: [
@@ -133,47 +78,15 @@ const portfolio = {
             ],
 
             role:
-                "[Describe your individual contribution, such as hardware assembly, programming, sensor integration, or documentation.]",
+                "Documentaion",
 
             images: [
                 "images/iot-project-1.jpg",
-                "projects/iot-diagram.jpg"
+                "images/iot-diagram.png"
             ],
 
             output:
-                "[Describe the completed system, its functionality, and the results achieved.]",
-
-            link: ""
-        },
-
-        {
-            title: "[IoT Project Title 2]",
-
-            description:
-                "[Describe your second IoT project.]",
-
-            objectives: [
-                "[First objective]",
-                "[Second objective]"
-            ],
-
-            technologies: [
-                "ESP32",
-                "Python",
-                "MySQL",
-                "Sensors"
-            ],
-
-            role:
-                "[Explain your personal role and technical contributions.]",
-
-            images: [
-                "images/iot-project-2.jpg",
-                "projects/project-screenshot.jpg"
-            ],
-
-            output:
-                "[Describe the project's final output and results.]",
+                "The physical machine is designed to dry freshly harvested rice grains inside a controlled drying chamber. It uses sensors to monitor environmental conditions and grain characteristics while automatically managing airflow to maintain suitable drying conditions.",
 
             link: ""
         }
@@ -184,18 +97,18 @@ const portfolio = {
 
     capstone: {
 
-        title: "[Your Capstone Project Title]",
+        title: "AI-Assisted Multi-Powered Grain Drying System with Android-Based Monitoring & Predictive Control System",
 
         status: "In Progress",
 
         description:
-            "[Provide a detailed overview of your capstone project, including the problem it addresses, its purpose, and its intended users.]",
+            "grAIn (AI-Assisted Multi-Powered Grain Drying System with Android-Based Monitoring & Predictive Control System) is an intelligent rice grain drying system that integrates IoT, artificial intelligence, and renewable energy to improve the traditional rice drying process. It uses multiple sensors to monitor temperature, humidity, grain moisture, and other drying conditions in real time. Through AI-based prediction and automated control, the system adjusts airflow and heating to achieve the target moisture content while improving drying efficiency and reducing grain losses. It also features an Android mobile application that allows users to remotely monitor the drying process, manage operations, view AI predictions, and receive notifications.",
 
         objectives: [
-            "[General or specific objective 1]",
-            "[General or specific objective 2]",
-            "[General or specific objective 3]",
-            "[General or specific objective 4]"
+            "To develop an IoT-based rice grain drying system powered by solar energy.",
+            "To monitor grain moisture, temperature, and humidity in real time using sensors.",
+            "To integrate AI-based prediction and automated control to improve the drying process.",
+            "To develop an Android application for remote monitoring, system control, and drying notifications."
         ],
 
         technologies: [
@@ -210,35 +123,31 @@ const portfolio = {
 
         members: [
             {
-                name: "[Team Member 1]",
-                role: "[Project Leader / Role]"
+                name: "Elmar Kenneth Radin",
+                role: "Project Leader / Frontend Developer"
             },
             {
-                name: "[Team Member 2]",
-                role: "[Member Role]"
+                name: "Joshua Santelices",
+                role: "Backend Developer"
             },
             {
-                name: "[Team Member 3]",
-                role: "[Member Role]"
-            },
-            {
-                name: "[Team Member 4]",
-                role: "[Member Role]"
+                name: "Prince Jin Stephen Moya",
+                role: "Quality Assurance"
             }
         ],
 
-        myRole: "[Your Assigned Role]",
+        myRole: "Documentation",
 
         contribution:
-            "[Clearly explain your individual contributions to the capstone. Mention specific features, programming tasks, research, hardware integration, testing, or documentation that you personally handled.]",
+            "Responsible for preparing and organizing the project documentation, ensuring that the content is properly written and aligned with the system's objectives. Also handled the preparation, revision, and organization of survey forms and questionnaires for expert and end-user evaluation.",
 
         output:
-            "[Describe the expected or completed system output and its significance.]",
+            "The expected output of the capstone is a functional AI-assisted, solar-powered rice grain drying system that automatically monitors and controls the drying process. It is expected to produce properly dried rice grains at the target moisture level, while providing real-time monitoring, AI predictions, and system controls through an Android application.",
 
         images: [
-            "images/capstone-preview.jpg",
-            "projects/capstone-diagram.jpg",
-            "projects/project-screenshot.jpg"
+            "images/capstone-preview.png",
+            "images/iot-diagram.png",
+            "images/project-screenshot.jpg"
         ],
 
         documents: [
@@ -248,7 +157,7 @@ const portfolio = {
             },
             {
                 title: "System Diagram",
-                url: "projects/capstone-diagram.jpg"
+                url: "images/iot-diagram.png"
             },
             {
                 title: "Source Code Repository",
