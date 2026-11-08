@@ -171,64 +171,22 @@ const portfolio = {
 
     projects: [
         {
-            name: "[Project Name 1]",
-            course: "[Subject / Course Name]",
+            name: "SDCA Cafeteria Ordering System",
+            course: "Integrative Programming And Technologies",
 
             description:
-                "[Briefly explain the project and its purpose.]",
+                "A Mobile Application targeted to make a ordering system like Grab Food or Food Panda inside the school where it can be delivered or reservered.",
 
             technologies: [
-                "HTML",
+                "Android Studio",
                 "CSS",
                 "JavaScript"
             ],
 
             contribution:
-                "[Explain exactly what you personally developed or contributed to the group project.]",
+                "A solo project that made by myself.",
 
-            image: "images/project-placeholder.jpg",
-
-            repository: "",
-            demo: ""
-        },
-
-        {
-            name: "[Project Name 2]",
-            course: "[Subject / Course Name]",
-
-            description:
-                "[Describe the project's functionality and purpose.]",
-
-            technologies: [
-                "Python",
-                "MySQL"
-            ],
-
-            contribution:
-                "[Describe your individual responsibilities and contributions.]",
-
-            image: "projects/project-screenshot.jpg",
-
-            repository: "",
-            demo: ""
-        },
-
-        {
-            name: "[Project Name 3]",
-            course: "[Subject / Course Name]",
-
-            description:
-                "[Provide a short project description.]",
-
-            technologies: [
-                "Java",
-                "Database"
-            ],
-
-            contribution:
-                "[Describe the features or components you personally handled.]",
-
-            image: "images/project-placeholder.jpg",
+            image: "projects/project-course.png",
 
             repository: "",
             demo: ""
