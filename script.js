@@ -240,36 +240,25 @@ const portfolio = {
 
     achievements: [
         {
-            title: "[Academic Recognition / Award]",
-            organization: "[School / Organization]",
-            date: "[Month Year]",
+            title: "Certificate of Election",
+            organization: "SDCA - Domini Xode",
+            date: "January 2022",
 
             description:
-                "[Explain the recognition or accomplishment and why it is meaningful.]",
+                "Receiving a Certificate of Election as a Digital Media Officer recognizes my election and trust to serve in the organization. This accomplishment is meaningful because it reflects the confidence of my fellow members in my abilities and gives me the opportunity to contribute my creativity and digital media skills while gaining leadership experience.",
 
             evidence: "certificates/achievement-1.jpg"
         },
 
         {
-            title: "[Training / Workshop / Seminar]",
-            organization: "[Organizer]",
-            date: "[Month Year]",
+            title: "Certificate of Appreciation",
+            organization: "SDCA - Domini Xode",
+            date: "January 2023",
 
             description:
-                "[Describe the event and the knowledge or skills gained.]",
+                "Receiving a Certificate of Appreciation as a Digital Media Officer recognizes my dedication and contributions to the organization through creating digital materials, managing social media content, and documenting activities. This recognition is meaningful because it acknowledges my efforts, creativity, and commitment in supporting the organization and keeping its members informed and engaged.",
 
             evidence: "certificates/achievement-2.jpg"
-        },
-
-        {
-            title: "[Scholarship / Academic Achievement]",
-            organization: "[School / Institution]",
-            date: "[Academic Year]",
-
-            description:
-                "[Describe your achievement.]",
-
-            evidence: ""
         }
     ],
 
@@ -278,37 +267,19 @@ const portfolio = {
 
     competitions: [
         {
-            name: "[Competition / Event Name]",
-            organizer: "[Organizing Institution]",
-            date: "[Month Year]",
+            name: "N/A",
+            organizer: "N/A",
+            date: "N/A",
 
-            award: "[First Place / Champion / Participant]",
+            award: "N/A",
 
             project:
                 "[Name of the submitted project or work.]",
 
             description:
-                "[Briefly explain the competition and your participation.]",
+                "N/A",
 
             evidence: "certificates/competition-1.jpg",
-
-            link: ""
-        },
-
-        {
-            name: "[Competition / Event Name 2]",
-            organizer: "[Organizer]",
-            date: "[Month Year]",
-
-            award: "[Award / Placement / Participant]",
-
-            project:
-                "[Project or work submitted.]",
-
-            description:
-                "[Describe your experience and accomplishment.]",
-
-            evidence: "certificates/competition-2.jpg",
 
             link: ""
         }
@@ -319,36 +290,20 @@ const portfolio = {
 
     leadership: [
         {
-            organization: "[Student Organization / Club]",
-            position: "[Position / Officer Role]",
-            year: "[Academic Year]",
+            organization: "Domini Xode",
+            position: "Digital Media Officer",
+            year: "A.Y. 2022-2023",
 
             responsibilities: [
-                "[Major responsibility 1]",
-                "[Major responsibility 2]",
-                "[Major responsibility 3]"
+                "Content Creation",
+                "Social Media Management",
+                "Promotions and Publicity"
             ],
 
             contribution:
-                "[Describe your overall contribution to the organization.]",
+                "Contributed to the organization’s digital presence by creating promotional materials, managing social media content, and documenting events through photos and videos to keep members informed and engaged.",
 
-            evidence: ""
-        },
-
-        {
-            organization: "[Another Organization]",
-            position: "[Leadership Position]",
-            year: "[Academic Year]",
-
-            responsibilities: [
-                "[Responsibility 1]",
-                "[Responsibility 2]"
-            ],
-
-            contribution:
-                "[Describe your leadership experience and involvement.]",
-
-            evidence: ""
+            evidence: "images/leadership-1.jpg"
         }
     ]
 
